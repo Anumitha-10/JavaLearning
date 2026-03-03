@@ -7,11 +7,11 @@ public class Pattern2 {
 
             for (int i = 1; i <= n; i++) {
 
-                for (int space = 1; space <= n - i; space++) {
+                for (int sp= 1; sp <= n - i; sp++) {
                     System.out.print("  ");
                 }
 
-                for (int star = 1; star <= i; star++) {
+                for (int sr = 1; sr <= i; sr++) {
                     System.out.print("* ");
                 }
 
