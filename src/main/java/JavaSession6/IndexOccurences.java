@@ -3,10 +3,10 @@ package JavaSession6;
 public class IndexOccurences {
     public static void main(String[] args) {
 
-        String haystack = "sadbutsad";
-        String needle = "sad";
+        String h= "sadbutsad";
+        String n= "sad";
 
-        System.out.println(haystack.indexOf(needle));
+        System.out.println(h.indexOf(n));
     }
 
 }
